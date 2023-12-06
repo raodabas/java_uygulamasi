@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tel"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/txtTel"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:inputType="phone"
+            android:hint="Telefon numarası giriniz"
+            android:ems="10"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mesaj"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/txtmesaj"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:inputType="text"
+            android:hint="Mesajınızı giriniz"
+            android:ems="10"
+            android:layout_marginLeft="8dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GÖNDER"/>
+
+
+</LinearLayout>

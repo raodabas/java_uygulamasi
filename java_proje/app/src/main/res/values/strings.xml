@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">java_proje</string>
+    <string-array name="conversion_options">
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+</resources>
